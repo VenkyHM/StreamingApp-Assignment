@@ -28,7 +28,7 @@ All backend services share common database models and utilities through `backend
 <img width="1906" height="984" alt="image" src="https://github.com/user-attachments/assets/7a4cb0b8-5da5-4571-b6d6-1c7bd4a7f113" />
 
 ----
-## Backend services buitt steps
+## Backend services built steps
 
 ```bash
 docker build -t admin-service .
