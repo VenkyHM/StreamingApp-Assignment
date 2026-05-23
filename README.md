@@ -4,6 +4,12 @@ Stream premium video content, host live watch parties, and manage your catalogue
 
 ## Architecture
 
+----
+<img width="982" height="657" alt="image" src="https://github.com/user-attachments/assets/ca6b9229-9402-40bb-8328-3c3b8938092a" />
+
+----
+
+
 | Service | Port | Description |
 | --- | --- | --- |
 | `authService` | 3001 | User authentication, registration, JWT issuance |
@@ -14,6 +20,40 @@ Stream premium video content, host live watch parties, and manage your catalogue
 | `mongo` | 27017 | Shared MongoDB instance |
 
 All backend services share common database models and utilities through `backend/common`.
+
+## Testing on local 
+
+##Frontend 
+---
+<img width="1906" height="984" alt="image" src="https://github.com/user-attachments/assets/7a4cb0b8-5da5-4571-b6d6-1c7bd4a7f113" />
+
+----
+## Backend services buitt steps
+
+```bash
+docker build -t admin-service .
+docker build -t auth-service .
+docker build -t chat-service .
+docker build -t streaming-service .
+
+docker run -d -p 3003:3003 --name admin-container admin-service
+docker run -d -p 3001:3001 --name auth-container auth-service
+docker run -d -p 3002:3002 --name streaming-container streaming-service
+docker run -d -p 3004:3004 --name chat-container chat-service
+
+````
+-----
+
+## Dockers Images 
+---
+<img width="834" height="278" alt="image" src="https://github.com/user-attachments/assets/793d42a7-2e32-4929-8cf5-9749f07906c4" />
+
+----
+
+
+
+
+
 
 ## Environment Configuration
 
