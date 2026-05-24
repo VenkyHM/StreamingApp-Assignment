@@ -147,5 +147,4 @@ docker run -d -p 3004:3004 --name chat-container chat-service
 
 
 
-The compose file provisions MongoDB plus all four Node.js microservices. S3 credentials are optional for local testing—you can still browse seeded metadata, but streaming requires valid S3 objects.
 
