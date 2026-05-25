@@ -115,12 +115,11 @@ docker run -d -p 3004:3004 --name chat-container chat-service
 ## Docker Images pushed to ECR successfully
 
 ---
-<img width="1914" height="904" alt="image" src="https://github.com/user-attachments/assets/bd1cb31c-7bfb-4815-8e85-f172ad6623e5" />
+<img width="1917" height="940" alt="image" src="https://github.com/user-attachments/assets/4ac76020-5310-4baa-ba9e-7d70c9851c7c" />
+
 
 ----
-<img width="1308" height="413" alt="image" src="https://github.com/user-attachments/assets/4a90036b-3fb5-4615-9d42-ba18fdbffdaa" />
 
-----
 
 ## All services are deployed successfully in kubernetes
 
