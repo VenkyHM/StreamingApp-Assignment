@@ -125,13 +125,14 @@ docker run -d -p 3004:3004 --name chat-container chat-service
 ## All services are deployed successfully in kubernetes
 
 ---
-<img width="1668" height="406" alt="image" src="https://github.com/user-attachments/assets/a6e2af54-615c-466c-949c-8e5daeb64505" />
+<img width="1885" height="693" alt="image" src="https://github.com/user-attachments/assets/26fa757d-3a4c-47ff-9cca-c36a0ca2e92f" />
+
 
 ---
 ## Helm list
 
 ---
-<img width="1680" height="155" alt="image" src="https://github.com/user-attachments/assets/bca8cdc9-63ee-4fb9-9081-2c01650ee322" />
+<img width="1466" height="118" alt="image" src="https://github.com/user-attachments/assets/4530410f-7aa6-48ea-92eb-7a8d964dba81" />
 
 ---
 
