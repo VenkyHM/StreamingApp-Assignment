@@ -135,7 +135,7 @@ docker run -d -p 3004:3004 --name chat-container chat-service
 
 ---
 
-## Login from Loadbalance
+## Login from Loadbalancer
 ---
 <img width="1913" height="989" alt="image" src="https://github.com/user-attachments/assets/cdf0b572-b84f-454b-b508-505e351ee00c" />
 
